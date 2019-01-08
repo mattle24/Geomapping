@@ -1,7 +1,7 @@
 library(readr)
 
 # Read in data
-coords <- read_csv("C:/Users/Matt_2/Dropbox/EMS/CUEMS/coords.csv")
+coords <- read_csv("coords.csv")
 
 library(leaflet)
 m <- leaflet() %>%
